@@ -24,9 +24,17 @@ var age = 26;
 var hungry = true;
 
 //Syntax Breakdown:
-// Above you will see the var keyword. This keyword is how we define, or create, a variable.  Following the var keyword, we add the name 
-// of the variable; In the cases of above, I have named the variables name, age, and hungry respectively. Following the variable name, 
-// there is an equal sign, which is called the assignment operator in Javascript. To the right of the assignment operator is the value 
+// Above you will see the var keyword. This keyword is how we declare, or create, a variable.  Following the var keyword, we add the name 
+// of the variable; In the cases above, I have variables called name, age, and hungry. Following the variable name, 
+// there is an equal sign, which is called the assignment operator in Javascript. This assignment operator allows us to give a value to our variable. To the right of the assignment operator is the value 
 // we want to store to the variable.
 
 //What are Data types?
+//The Concept:
+//We can assign many different values to our variables. These values in Javascript are separated into different types, which we call 
+//'data types'.  Javascript has seven data types: Number, String, Boolean, Null, Undefined, Object, and Symbol.
+
+//Data Type Breakdown:
+//Number: The number data type refers to any number, including decimals.
+//The Syntax: var number = 25;
+
