@@ -1,0 +1,16 @@
+Hello and welcome to Javascript Fundamentals! This is a beginner level course to learn the fundamental concepts of the Javascript language.
+These lessons will be broken into two different sections: A concept explanation section, and a problem solving section. The concept 
+explanation section will involve going over specific Javascript concepts and syntax, while the problem solving section will give you an 
+opportunity to practice what you have learned. These problems will be offered in a drill type format, providing many problems for each 
+topic, as this will provide necessary repetition to help you remember the concepts and their respective syntax. Attached to each section
+will also be a list of extra resources to help you solidify the concepts that are taught. These resources will consist of videos and 
+articles related to each topic, and will be able to be found in the 'extra-resources' file found in each lesson folder.
+
+This course is going to be divided into _ sections.  Those sections are as follows:
+
+1. Variables, Data types, and Functions
+2. Objects and Arrays
+3. For-loops and Array Methods
+4. Callback functions, Higher-Order Functions
+5. Scope, Context, and Closures
+6. Constructors, Classes, and Prototypes
