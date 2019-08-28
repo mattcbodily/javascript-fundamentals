@@ -6,11 +6,12 @@ topic, as this will provide necessary repetition to help you remember the concep
 will also be a list of extra resources to help you solidify the concepts that are taught. These resources will consist of videos and 
 articles related to each topic, and will be able to be found in the 'extra-resources' file found in each lesson folder.
 
-This course is going to be divided into _ sections.  Those sections are as follows:
+This course is going to be divided into seven sections.  Those sections are as follows:
 
 1. Variables, Data types, and Functions
 2. Objects and Arrays
 3. For-loops and Array Methods
-4. Callback functions, Higher-Order Functions
+4. Callback functions, High-Order Functions
 5. Scope, Context, and Closures
 6. Constructors, Classes, and Prototypes
+7. ES6 features and how to use them
