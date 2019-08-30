@@ -5,9 +5,9 @@ What are Variables in Javascript?
 
 /// The Concept ///
 
-You can think of variables like a box. Variables are created to store 
-information that we can use throughout our web application. This data 
-can range from numbers, words, and many other data types that we discuss 
+You can think of variables as boxes that store data. Variables are created 
+to store information that we can use throughout our web application. This 
+data can range from numbers and words, to many other data types that we discuss 
 later in this section.
 
 /// The Syntax ///
@@ -96,3 +96,67 @@ Example:
 
 var nothing = null;
 
+* Symbol *
+
+The symbol data type is a relatively new data type in Javascript, 
+introduced in ES6. More on this data type and how to use it will 
+be found in lesson seven along with other ES6 topics.
+
+
+Operators? <-- This section may need to be moved depending on how the curriculum flows.
+
+
+Functions <-- Possibly expand this section.
+
+/// The Concept ///
+
+While it's great that variables store values, we often want to 
+do something with that data. Functions allow us to perform 'actions' 
+in our code, including changing and using the values that we have 
+stored in our code.
+
+/// The Syntax ///
+
+* Function Declaration *
+
+There are a couple ways we can create functions, which we will cover 
+here.  The first is called Function Declaration.  When declaring a 
+function we start by using the built in 'function' keyword. Following 
+the function keyword, we name our function, much like we would name a 
+variable following the 'var' keyword. Following are functions name we 
+put parentheses: (). Inside the parentheses are a place where we can 
+define values that can be passed into this function for the function
+to use. When declaring our function, these are called 'parameters'.
+Following our parentheses, we put curly brackets: {}. Inside the curly 
+brackets we write what we would like this function to do, whether that's 
+adding two numbers together, or building a sentence from passed in strings. 
+The possibilities are endless!
+
+Example: 
+function add(){
+    return 2 + 2;
+};
+
+What is this function doing? 
+
+In this example we have created a function called add. The add function 
+simply adds 2 + 2 and returns the value.  The RETURN keyword is what 
+allows us to return values out of a function. If we don't include the 
+return keyword, our function will perform the action but won't return 
+anything out of it!
+
+* Function Expression
+
+Function expressions are very similar to function declarations, with 
+only one key difference. To create a function using an expression we 
+start by using the 'var' keyword, and following that with the name 
+we want to give the function. Following that we use the assignment 
+operator and set our newly named variable a value of a function, using 
+the 'function' keyword. We don't follow the function keyword with a 
+name, because we already named our function when declaring our variable. 
+The rest of the syntax follows the same pattern as function declaration.
+
+Example:
+var add = function(){
+    return 2 + 2;
+};
