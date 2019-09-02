@@ -26,3 +26,30 @@ describe('Problem 3 - Boolean Variable', () => {
     expect(typeof trueOrFalse).toEqual('boolean')
   })
 })
+
+describe('Problem 4 - Undefined Variable', () => {
+  it('notDefined should be undefined', () => {
+    expect(notDefined).toBeUndefined()
+  })
+})
+
+describe('Problem 5 - Null Variable', () => {
+  it('nothingHere should exist', () => {
+    expect(nothingHere).toBeDefined()
+  })
+  it('nothingHere should have a value of null', () => {
+    expect(typeof nothingHere).toEqual('object')
+  })
+})
+
+describe('Problem 6 - Data Types One', () => {
+  it('dataTypesOne should equal the correct data type', () => {
+    expect(dataTypesOne).toEqual(['Boolean'])
+  })
+})
+
+describe('Problem 7 - Data Types Two', () => {
+  it('dataTypesTwo should equal the correct data type', () => {
+    expect(dataTypesTwo).toEqual(['String'])
+  })
+})

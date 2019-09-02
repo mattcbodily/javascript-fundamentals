@@ -19,7 +19,7 @@ Good luck! */
 
 
 
-/// Problem One ///
+/// Problem 1 ///
 
 /* Create a variable called helloWorld, and set it's value 
 equal to a string that says "Hello World!" */
@@ -28,7 +28,7 @@ equal to a string that says "Hello World!" */
 
 
 
-/// Problem Two ///
+/// Problem 2 ///
 
 /* Create a variable called favNumber, and set it's value equal 
 to your favorite number */
@@ -37,9 +37,63 @@ to your favorite number */
 
 
 
-/// Problem Three ///
+/// Problem 3 ///
 
 /* Create a variable called trueOrFalse and set it equal to 
 a boolean */
 
 // Code here
+
+
+
+/// Problem 4 ///
+
+/* Create a variable called notDefined and set it equal to 
+undefined */
+
+// Code here
+
+
+
+/// Problem 5 ///
+
+/* Create a variable called nothingHere and set it equal to
+null */
+
+// Code 
+
+
+
+// * EXAMPLE CODE BELOW - DO NOT CHANGE * //
+
+var codingIsCool = true;
+
+var words = 'Javascript is awesome!';
+
+var drivingAge = 16;
+
+var whatAmI;
+
+// * EXAMPLE CODE ABOVE - DO NOT CHANGE * //
+
+
+
+/// Problem 6 ///
+
+/* What data type is the codingIsCool variable? Remove all 
+values from the variable below that aren't the correct 
+data type */
+
+// Original values: ['String', 'Number', 'Boolean', 'Undefined', 'Null']
+
+var dataTypesOne = ['String', 'Number', 'Boolean', 'Undefined', 'Null'];
+
+
+
+/// Problem 7 ///
+
+/* What data type is the words variable? Remove all values 
+from the variable below that aren't the correct data type */
+
+var dataTypesTwo = ['String', 'Number', 'Boolean', 'Undefined', 'Null'];
+
