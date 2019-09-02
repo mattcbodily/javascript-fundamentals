@@ -8,10 +8,10 @@ articles related to each topic, and will be able to be found in the 'extra-resou
 
 This course is going to be divided into seven sections.  Those sections are as follows:
 
-1. Variables, Data types, and Functions
-2. Objects and Arrays
-3. For-loops and Array Methods
-4. Callback functions, High-Order Functions
-5. Scope, Context, and Closures
-6. Constructors, Classes, and Prototypes
+1. Variables, Data types, Operators, Concatenation and template strings
+2. Functions, If/Else Statements, Ternaries, and Scope
+3. Arrays and Objects, For Loops and Basic Array Methods, For In Loops and Destructuring
+4. More Array Methods and Working with Objects
+5. Callback Functions and High Order Functions
+6. Constructors, Classes, and Prototype Methods
 7. ES6 features and how to use them
