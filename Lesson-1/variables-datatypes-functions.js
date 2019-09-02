@@ -1,0 +1,1 @@
+var string = 'hello'; //Testing jasmine to see if it works

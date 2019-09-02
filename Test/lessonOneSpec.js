@@ -1,11 +1,8 @@
-describe('Jasmine Test', ()=>{
+describe('Problem 1 - String Variable', ()=>{
     it('Variable should exist', ()=>{
-      //...
+      expect(string).toBeDefined()
     })
-    it('should delete an item', ()=>{
-      //...
-    })
-    it('should mark item as complete', ()=>{
-      //...
+    it('Value of variable should be a string', ()=>{
+      expect(typeof string).toEqual('string')
     })
   })
