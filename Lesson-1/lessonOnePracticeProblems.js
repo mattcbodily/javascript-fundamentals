@@ -18,6 +18,7 @@ what you are prompted to name them, including casing.
 Good luck! */
 
 
+
 /// Problem One ///
 
 /* Create a variable called helloWorld, and set it's value 
@@ -26,9 +27,19 @@ equal to a string that says "Hello World!" */
 // Code here
 
 
+
 /// Problem Two ///
 
-/* Create a variable called myAge, and set it's value equal 
-to your age as a number */
+/* Create a variable called favNumber, and set it's value equal 
+to your favorite number */
+
+// Code here
+
+
+
+/// Problem Three ///
+
+/* Create a variable called trueOrFalse and set it equal to 
+a boolean */
 
 // Code here
