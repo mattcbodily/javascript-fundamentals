@@ -64,7 +64,7 @@ null */
 
 
 
-// * EXAMPLE CODE BELOW - DO NOT CHANGE * //
+// * REFERENCE CODE BELOW - DO NOT CHANGE * //
 
 var codingIsCool = true;
 
@@ -74,7 +74,7 @@ var drivingAge = 16;
 
 var whatAmI;
 
-// * EXAMPLE CODE ABOVE - DO NOT CHANGE * //
+// * REFERENCE CODE ABOVE - DO NOT CHANGE * //
 
 
 
@@ -97,3 +97,76 @@ from the variable below that aren't the correct data type */
 
 var dataTypesTwo = ['String', 'Number', 'Boolean', 'Undefined', 'Null'];
 
+
+
+/// Problem 8 ///
+
+/* What data type is the drivingAge variable? Remove all 
+values from the variable below that aren't the correct 
+data type */
+
+var dataTypesThree = ['String', 'Number', 'Boolean', 'Undefined', 'Null'];
+
+
+
+/// Problem 9 ///
+
+/* What data type is the whatAmI variable? Remove all values 
+from the variable below that aren't the correct data type */
+
+var dataTypesFour = ['String', 'Number', 'Boolean', 'Undefined', 'Null'];
+
+
+
+// * REFERENCE CODE BELOW - DO NOT CHANGE * //
+
+var numOne = 5;
+
+var numTwo = 10;
+
+// * REFERENCE CODE ABOVE - DO NOT CHANGE * //
+
+
+/// Problem 10 ///
+
+/* Using the addition operator, assign the value of the add 
+variable to the value of the number variables above added 
+together */
+
+var add; // Code here
+
+
+
+/// Problem 11 ///
+
+/* Using the subtraction operator, subtract two numbers to
+make the subtract variable equal 11 */
+
+var subtract; //Code here
+
+
+
+/// Problem 12 ///
+
+/* Using the multiplication operator, multiply two numbers 
+together to make the multiply variable equal to 20 */
+
+var multiply; //Code here
+
+
+
+/// Problem 13 ///
+
+/* Using the division operator, divide two numbers 
+to make the divide variable equal 20 */
+
+var divide; //Code here
+
+
+
+/// Problem 14 ///
+
+/* Using the remainder variable below, use the modulus operator 
+on two numbers to return a value of zero */
+
+var remainder; //Code here

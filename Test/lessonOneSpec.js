@@ -53,3 +53,16 @@ describe('Problem 7 - Data Types Two', () => {
     expect(dataTypesTwo).toEqual(['String'])
   })
 })
+
+describe('Problem 8 - Data Types Three', () => {
+  it('dataTypesThree should equal the correct data type', () => {
+    expect(dataTypesThree).toEqual(['Number'])
+  })
+})
+
+describe('Problem 9 - Data Types Four', () => {
+  it('dataTypesFour should equal the correct data type', () => {
+    expect(dataTypesFour).toEqual(['Undefined'])
+  })
+})
+
