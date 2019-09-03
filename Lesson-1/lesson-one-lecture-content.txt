@@ -127,6 +127,132 @@ in ES6. More on this data type and how to use it will be found in lesson seven,
 along with other ES6 topics.
 
 
+
 // * OPERATORS * //
 
 What are operators?
+
+Operators in Javascript allow us to perform an operation on one or 
+more values. These operations can include value assignment, 
+math operations(such as addition), value comparison, and more.
+
+
+* Assignment Operator *
+
+The assignment operator in Javascript is the '=' symbol. This allows us to 
+assign a value to a variable.
+
+-- Example --
+
+var assignment = true;
+
+
+
+* Math Operators *
+
+In Javascript we can perform math operations through the use of 
+many familiar operators.  They are:
+
+Addition:         +
+Subtraction:      -
+Multiplication:   *
+Division:         /
+
+-- Examples --
+
+In these examples we are simply setting the values the add and multiply 
+variables to two numbers added, and multiplied together.
+
+var add = 2 + 2;
+var multiply = 5 * 5;
+
+
+In these examples we are declaring two variables and setting them 
+equal to two different numbers. We are then declaring variables called 
+add and multiply, that are adding, or multiplying the number variables 
+together.
+
+var numOne = 2;
+var numTwo = 5;
+
+var add = numOne + numTwo;
+var multiply = numOne * numTwo;
+
+
+Math operators are used often, and because of that there are 
+shorthand ways to use them. They are:
+
+Addition:        +=
+Subtraction:     -=
+Multiplication:  *=
+Division:        /=
+
+By combining our math operators with the assignment operator, it allows 
+us to avoid redundant code.
+
+-- Examples --
+
+In the example below, we created two variables, called numOne and 
+numTwo. We are than using the += operator to add together numOne 
+and numTwo, to result in numOne being 7.
+
+var numOne = 2;
+var numTwo = 5;
+
+numOne += numTwo;
+
+
+In Javascript we also have access to the increment and decrement 
+operators. These operators will add or subtract one to a given value.
+
+Increment:   ++
+Decrement:   --
+
+-- Example --
+
+In the example below we are declaring a variable and setting its value 
+to 2. We are then incrementing that variable, so no numOne has a value 
+of 3.
+
+var numOne = 2;
+
+numOne++;
+
+
+
+* Comparison Operators *
+
+Comparison operators will return true or false based off of the values 
+they are given. These operators allow us to compare values.
+
+Equal to:                   ==
+Stricly equal to:           ===
+Not equal to:               !==
+Greater than:               >
+Greater than or equal to:   >=
+Less than:                  <
+Less than or equal to:      <=
+
+
+What is the difference between '==' and '==='?
+
+Both the triple equal and double equal operators compare if two values 
+are equal to each other. The difference is that the triple equal operator 
+won't consider two values of different data types equal, where the double 
+equal may coerce the data types to be the same. For example:
+
+3 === '3'  <-- This returns false
+
+3 == '3'   <-- This returns true
+
+
+Comparison operators will be used more in depth during lesson two when 
+we learn about functions.
+
+-- Examples --
+
+3 !== 4  <-- This returns true
+
+3 >= 4   <-- This returns false
+
+3 <= 4   <-- This returns true
