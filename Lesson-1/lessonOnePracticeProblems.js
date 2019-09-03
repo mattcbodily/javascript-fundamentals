@@ -139,8 +139,9 @@ var add; // Code here
 
 /// Problem 11 ///
 
-/* Using the subtraction operator, subtract two numbers to
-make the subtract variable equal 11 */
+/* Using the subtraction operator, assign the value of the 
+subtract variable to the value of the number variables above 
+subtracted */
 
 var subtract; //Code here
 
@@ -148,8 +149,9 @@ var subtract; //Code here
 
 /// Problem 12 ///
 
-/* Using the multiplication operator, multiply two numbers 
-together to make the multiply variable equal to 20 */
+/* Using the multiplication operator, assign the value of the 
+multiply variable to the value of the number variables above 
+multiplied together */
 
 var multiply; //Code here
 
@@ -157,8 +159,8 @@ var multiply; //Code here
 
 /// Problem 13 ///
 
-/* Using the division operator, divide two numbers 
-to make the divide variable equal 20 */
+/* Using the division operator, assign the value of the 
+divide variable to the value of the number variables divided */
 
 var divide; //Code here
 
@@ -166,7 +168,7 @@ var divide; //Code here
 
 /// Problem 14 ///
 
-/* Using the remainder variable below, use the modulus operator 
-on two numbers to return a value of zero */
+/* Using the modulus operator, assign the value of the remainder 
+variable to the remainder of the two number variables above divided */
 
 var remainder; //Code here

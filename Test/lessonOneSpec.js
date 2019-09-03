@@ -66,3 +66,47 @@ describe('Problem 9 - Data Types Four', () => {
   })
 })
 
+describe('Problem 10 - Addition', () => {
+  it('add variable should be assigned a value', () => {
+    expect(add).toBeDefined()
+  })
+  it('add variable should be assigned the correct value', () => {
+    expect(add).toEqual(15)
+  })
+})
+
+describe('Problem 11 - Subtraction', () => {
+  it('subtract variable should be assigned a value', () => {
+    expect(subtract).toBeDefined()
+  })
+  it('subtract variable should be assigned the correct value', () => {
+    expect(subtract).toEqual(-5 || 5)
+  })
+})
+
+describe('Problem 12 - Multiplication', () => {
+  it('multiply variable should be assigned a value', () => {
+    expect(multiply).toBeDefined()
+  })
+  it('multiply variable should be assigned the correct value', () => {
+    expect(multiply).toEqual(50)
+  })
+})
+
+describe('Problem 13 - Division', () => {
+  it('divide variable should be assigned a value', () => {
+    expect(divide).toBeDefined()
+  })
+  it('divide variable should be assigned the correct value', () => {
+    expect(divide).toEqual(2 || .5)
+  })
+})
+
+describe('Problem 14 - Remainder', () => {
+  it('remainder variable should be assigned a value', () => {
+    expect(remainder).toBeDefined()
+  })
+  it('remainder variable should be assigned the correct value', () => {
+    expect(remainder).toEqual(0 || 5)
+  })
+})
