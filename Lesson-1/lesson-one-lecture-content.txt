@@ -20,7 +20,7 @@ but there are a couple conventions you should follow:
        letter or an underscore. Variable names can include numbers, 
        but shouldn't start with them.
     2. Variable names should be in camelCase(first letter lowercase, 
-       all other words start with a capital, like the camelCase word 
+       all other words start with uppercase, like the camelCase word 
        above.)
 
 It would be a good idea to also name your variable in a way that it 
@@ -39,3 +39,94 @@ that we would like to assign to our variable.
 -- Example --
 
 var favNum = 11;
+
+
+
+// * DATA TYPES * //
+
+What are data types?
+
+We can assign many different values to our variables. Those values fall 
+into categories we call data types. In Javascript, there are seven data 
+types:
+
+    1. String
+    2. Number
+    3. Boolean
+    4. Object
+    5. Undefined
+    6. Null
+    7. symbol
+
+* String *
+
+Strings are values that are wrapped in quotes("", '', or ``). The characters 
+inside the quotes can be letters, numbers, and special characters.
+
+-- Example --
+
+var greetings = "Hello World!";
+
+
+* Number *
+
+Numbers refer to any number(including decimals) that is not wrapped in quotes.
+
+-- Example --
+
+var favNum = 11;
+
+
+* Boolean *
+
+Booleans only have two values: true and false. 
+
+-- Example --
+
+var javascriptIsAwesome = true;
+
+
+* Object *
+
+Objects refer to collections of related data. They contain key/value pairs 
+that give us a description of what the data is(key) and what it's value is. 
+They are easily identified by the curly brackets: {}, that surround them. 
+Objects will be covered more in depth in lesson three.
+
+-- Example --
+
+var exampleObject = {
+  coolObject: true  
+};
+
+
+* Undefined *
+
+Undefined is a data tye in Javascript that occurs when we have declared(created) 
+a variable without giving it a value. 
+
+-- Example --
+
+var notDefined;
+
+
+* Null *
+
+Null is a data type that represents 'nothing'. Unlike the undefined data type, 
+you must assign null as the value of the variable.
+
+-- Example --
+
+var nothing = null;
+
+
+* Symbol *
+
+The symbol data type is a relatively new data type in Javascript, introduced 
+in ES6. More on this data type and how to use it will be found in lesson seven, 
+along with other ES6 topics.
+
+
+// * OPERATORS * //
+
+What are operators?

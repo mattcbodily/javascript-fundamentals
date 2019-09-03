@@ -12,6 +12,6 @@ This course is going to be divided into seven sections.  Those sections are as f
 2. Functions, If/Else Statements, Ternaries, and Scope
 3. Arrays and Objects, For Loops and Basic Array Methods, For In Loops and Destructuring
 4. More Array Methods and Working with Objects
-5. Callback Functions and High Order Functions
+5. Callback Functions, High Order Functions, and Closures
 6. Constructors, Classes, and Prototype Methods
 7. ES6 features and how to use them
