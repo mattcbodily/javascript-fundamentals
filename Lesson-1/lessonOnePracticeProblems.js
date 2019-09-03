@@ -24,7 +24,7 @@ Good luck! */
 /* Create a variable called helloWorld, and set it's value 
 equal to a string that says "Hello World!" */
 
-// Code here
+//Code here
 
 
 
@@ -33,7 +33,7 @@ equal to a string that says "Hello World!" */
 /* Create a variable called favNumber, and set it's value equal 
 to your favorite number */
 
-// Code here
+//Code here
 
 
 
@@ -42,7 +42,7 @@ to your favorite number */
 /* Create a variable called trueOrFalse and set it equal to 
 a boolean */
 
-// Code here
+//Code here
 
 
 
@@ -51,7 +51,7 @@ a boolean */
 /* Create a variable called notDefined and set it equal to 
 undefined */
 
-// Code here
+//Code here
 
 
 
@@ -60,7 +60,7 @@ undefined */
 /* Create a variable called nothingHere and set it equal to
 null */
 
-// Code 
+//Code here 
 
 
 
@@ -133,7 +133,7 @@ var numTwo = 10;
 variable to the value of the number variables above added 
 together */
 
-var add; // Code here
+var add; //Code here
 
 
 
@@ -172,3 +172,10 @@ var divide; //Code here
 variable to the remainder of the two number variables above divided */
 
 var remainder; //Code here
+
+
+
+/// Problem 15 ///
+
+/* Which of the following are not data types? Delete the values that 
+are not data types in Javascript */

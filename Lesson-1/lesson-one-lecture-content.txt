@@ -1,106 +1,41 @@
-Lesson One: Variables, Data Types, and Functions
+LESSON ONE - VARIABLES, DATA TYPES, OPERATORS
 
 
-What are Variables in Javascript?
+// * VARIABLES * //
 
-/// The Concept ///
+What is a variable in Javascript?
 
-You can think of variables as boxes that store data. Variables are created 
-to store information that we can use throughout our web application. This 
-data can range from numbers and words, to many other data types that we discuss 
-later in this section.
-
-/// The Syntax ///
-
-To create, or declare, a variable, we will need to use the 'var' keyword.
-Following the 'var' keyword we will put the '=' symbol, which is known as 
-the assignment operator in Javascript. The assignment operator allows us 
-to assign a value to our variable. Finally, following the assignment
-operator will be the value we are assigning to our variable.
-
-Example:
-
-var age = 27;
+You can think of a variable as a box that stores data we need 
+in our web application. <-- add more to this section
 
 
-What are Data Types?
+Creating Variables
 
-/// The Concept ///
+To create, or declare, a variable, we will start by using the 
+'var' keyword. This keyword is followed by the name we are giving 
+our variable. The name of the variable can be pretty much anything, 
+but there are a couple conventions you should follow:
 
-When declaring variables, we can assign many different types of data to 
-them.  In Javascript, there are seven data types, they are:
+    1. Variable names should NOT start with a number, but instead a 
+       letter or an underscore. Variable names can include numbers, 
+       but shouldn't start with them.
+    2. Variable names should be in camelCase(first letter lowercase, 
+       all other words start with a capital, like the camelCase word 
+       above.)
 
-1. String
-2. Number
-3. Boolean
-4. Object
-5. Undefined
-6. Null
-7. Symbol
+It would be a good idea to also name your variable in a way that it 
+makes it easy to see what kind of data it is holding. For example, 
+maybe you have a variable that's holding your favorite number as its 
+value. You would probably want that variable to be named something 
+along the lines of favoriteNumber or favNum, so it's easily 
+identifiable.
 
-* String *
+After we have named our variable we will use the equal sign(=). In 
+Javascript, the '=' symbol is known as the assignment operator(more 
+on operators below). We use the assignment operator to assign a value 
+to our variables. Following the assignment operator, we put the value 
+that we would like to assign to our variable.
 
-Strings are values that are surrounded by quotes("", '', or ``). The 
-characters inside the string can be anything from letters to numbers 
-to symbols.
+-- Example --
 
-Example:
-
-var string = "I am a string";
-
-* Number *
-
-Numbers refer to any numbers(including decimals) that are not found 
-in a string.
-
-Example:
-
-var number = 11;
-
-* Boolean *
-
-Booleans have only two values: true and false.
-
-Example:
-
-var boolean = true;
-
-* Object *
-
-Objects refer to collection of related data.  They contain key/value 
-pairs that give us a description of what the data is(key) and what 
-it's value is(value). They are easily identified by the {} surrounding 
-them. Objects will be discussed more in depth during lesson two.
-
-Example:
-
-var object = {
-    type: 'Object'
-};
-
-* Undefined *
-
-Undefined is a data type in Javascript that occurs when we have 
-declared(created) a variable without giving it a value.
-
-Example:
-
-var undefined;  <-- A variable called undefined is declared but never given a value.
-
-* Null *
-
-Null is a data type that represents 'nothing'. Unlike the undefined 
-data type, you must assign null as the value of the variable.
-
-Example:
-
-var nothing = null;
-
-* Symbol *
-
-The symbol data type is a relatively new data type in Javascript, 
-introduced in ES6. More on this data type and how to use it will 
-be found in lesson seven along with other ES6 topics.
-
-
-Operators
+var favNum = 11;
