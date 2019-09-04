@@ -137,3 +137,30 @@ describe('Problem 17 - True or False Three', () => {
     expect(trueOrFalseThree).toEqual(true)
   })
 })
+
+describe('Problem 18 - True or False Four', () => {
+  it('trueOrFalseFour should be assigned a value', () => {
+    expect(trueOrFalseFour).toBeDefined()
+  })
+  it('trueOrFalseFour should be assigned the correct value', () => {
+    expect(trueOrFalseFour).toEqual(true)
+  })
+})
+
+describe('Problem 19 - True or False Five', () => {
+  it('trueOrFalseFive should be assigned a value', () => {
+    expect(trueOrFalseFive).toBeDefined()
+  })
+  it('trueOrFalseFive should be assigned the correct value', () => {
+    expect(trueOrFalseFive).toEqual(false)
+  })
+})
+
+describe('Problem 20 - True or False Five', () => {
+  it('trueOrFalseSix should be assigned a value', () => {
+    expect(trueOrFalseSix).toBeDefined()
+  })
+  it('trueOrFalseSix should be assigned the correct value', () => {
+    expect(trueOrFalseSix).toEqual(true)
+  })
+})

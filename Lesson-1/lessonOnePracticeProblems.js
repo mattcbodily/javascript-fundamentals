@@ -11,7 +11,8 @@ specrunner in the browser as you finish them. Items in the
 specrunner will change from red to green when you have 
 answered part of a problem correctly. When all of the 
 problems have been completed correctly, all items and the 
-bar above them will show as green.
+bar above them will show as green. Make sure to refresh 
+your browser to see an updated results from the tests.
 
 Be sure to follow directions carefully, naming variables 
 what you are prompted to name them, including casing.
@@ -207,4 +208,30 @@ var trueOrFalseThree; //Code here
 
 /// Problem 18 ///
 
-/*  */
+/* undefined is a falsy value  */
+
+var trueOrFalseFour; //Code here
+
+
+
+/// Problem 19 ///
+
+/* 5 % 2 will return 0 */
+
+var trueOrFalseFive; //Code here
+
+
+// * EXAMPLE CODE BELOW - DO NOT CHANGE * //
+
+var evenNum = 2;
+var oddNum = 3;
+
+var addedNums = evenNum + oddNum;
+
+// * EXAMPLE CODE ABOVE - DO NOT CHANGE * //
+
+/// Problem 20 ///
+
+/* Given the code above, addedNums is equal to 5 */
+
+var trueOrFalseSix; //Code here
