@@ -5,8 +5,8 @@ LESSON ONE - VARIABLES, DATA TYPES, OPERATORS
 
 What is a variable in Javascript?
 
-You can think of a variable as a box that stores data we need 
-in our web application. <-- add more to this section
+You can think of a variable as a container that stores data we need 
+in our web application.
 
 
 Creating Variables
@@ -56,7 +56,8 @@ types:
     4. Object
     5. Undefined
     6. Null
-    7. symbol
+    7. Symbol
+
 
 * String *
 
