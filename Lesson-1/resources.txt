@@ -1,0 +1,21 @@
+Lesson One Resources
+
+These resources cover material that was taught during the lesson one lecture, but may also include 
+topics that will be covered in later lessons. Interactive resources allow you to practice your 
+code while also covering core concepts. I would highly recommend using these interactive resources 
+for additional practice throughout the course.
+
+-- Articles --
+MDN Javascript Basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+W3Schools Variables: https://www.w3schools.com/js/js_variables.asp
+Javascript Info: https://javascript.info/types
+W3Schools Operators: https://www.w3schools.com/js/js_operators.asp
+
+-- Videos --
+Javascript Crash Course by Traversy Media: https://www.youtube.com/watch?v=hdI2bqOjy3c
+freeCodeCamp Javascript Course: https://www.youtube.com/watch?v=PkZNo7MFNFg&t=36s
+
+-- Interactive --
+Codecademy: https://www.codecademy.com/
+freeCodeCamp: https://www.freecodecamp.org/
+Learn-JS: https://www.learn-js.org/
