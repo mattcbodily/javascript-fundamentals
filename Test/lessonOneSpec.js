@@ -110,3 +110,30 @@ describe('Problem 14 - Remainder', () => {
     expect(remainder).toEqual(0 || 5)
   })
 })
+
+describe('Problem 15 - True or False One', () => {
+  it('trueOrFalseOne should be assigned a value', () => {
+    expect(trueOrFalseOne).toBeDefined()
+  })
+  it('trueOrFalseOne should be assigned the correct value', () => {
+    expect(trueOrFalseOne).toEqual(false)
+  })
+})
+
+describe('Problem 16 - True or False Two', () => {
+  it('trueOrFalseTwo should be assigned a value', () => {
+    expect(trueOrFalseTwo).toBeDefined()
+  })
+  it('trueOrFalseTwo should be assigned the correct value', () => {
+    expect(trueOrFalseTwo).toEqual(false)
+  })
+})
+
+describe('Problem 17 - True or False Three', () => {
+  it('trueOrFalseThree should be assigned a value', () => {
+    expect(trueOrFalseThree).toBeDefined()
+  })
+  it('trueOrFalseThree should be assigned the correct value', () => {
+    expect(trueOrFalseThree).toEqual(true)
+  })
+})

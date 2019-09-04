@@ -175,7 +175,36 @@ var remainder; //Code here
 
 
 
+/// TRUE OR FALSE ///
+
+/* In this section, determine whether the answer is true or false, and then 
+assign the given variable to your answer(true or false as a boolean) */
+
+
 /// Problem 15 ///
 
-/* Which of the following are not data types? Delete the values that 
-are not data types in Javascript */
+/* "0" is a falsy value */
+
+var trueOrFalseOne; //Code here
+
+
+
+/// Problem 16 ///
+
+/* null is not a data type in Javascript */
+
+var trueOrFalseTwo; //Code here
+
+
+
+/// Problem 17 ///
+
+/* 3 == '3' will return true */
+
+var trueOrFalseThree; //Code here
+
+
+
+/// Problem 18 ///
+
+/*  */

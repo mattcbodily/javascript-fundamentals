@@ -251,8 +251,25 @@ we learn about functions.
 
 -- Examples --
 
-3 !== 4  <-- This returns true
+3 !== 4    <-- This returns true
 
-3 >= 4   <-- This returns false
+3 !== '3'  <-- This returns true
 
-3 <= 4   <-- This returns true
+3 >= 4     <-- This returns false
+
+3 <= 4     <-- This returns true
+
+
+
+// * Truthy and Falsy Values * //
+
+Everything in Javascript has either a true value(truthy) or a 
+false value(falsy). The vast majority of values are truthy values, but 
+there are six falsy values, and they are:
+
+    1. false
+    2. 0 (the number, not 0 in a string)
+    3. "", '', or `` (an empty string)
+    4. null
+    5. undefined
+    6. NaN (this represents Not a Number)
